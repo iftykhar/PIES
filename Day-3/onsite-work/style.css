@@ -1,0 +1,126 @@
+/*
+synatx of css
+
+selector {
+    key:value;
+    properties:value;
+}
+
+*/
+body{
+    margin: 0;
+    padding: 0;;
+}
+
+header,.my-work ,.subscript{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.logo{
+    width: 8%;
+}
+
+h2{
+
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.round , .subscript .round{
+    margin-top: 50px;
+    border: 1px solid white;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.container{
+    margin: 20px 25%;
+    /* padding: 0 50px; */
+}
+
+.what-i-do,.photo, footer {
+    text-align: center;
+    padding: 25px 0;
+    color: #464b4f ;
+    overflow: hidden;
+}
+
+.what-i-do .para, .photo .para{
+    font-size: 20px;
+}
+.what-i-do .row .col ,.my-work .row .col , .photo .row .col  {
+    width: 31.33%;
+    margin: 10px 1%;
+    float: left;
+    text-align: left;
+}
+
+.my-work {
+    text-align: center;
+    background-color: black;
+    overflow: hidden;
+}
+
+.my-work .menu ul{
+    display: inline-block;
+}
+.my-work .menu ul li{
+    list-style: none;
+    display: inline;
+}
+
+.my-work .menu ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    /* padding: 10px 20px ; */
+    margin: 0 15px;
+    padding-bottom: 10px;
+}
+
+.my-work .menu ul li a:hover{
+    border-bottom: 2px solid blue;
+}
+
+
+.my-work .row .col img, .photo .row .col img {
+    width: 100%;
+}
+
+.my-work .row .col{
+    text-align: center;
+}
+
+.my-work button , .photo button, .subscript button{
+    margin: 50px ;
+    padding: 20px;
+    background-color: rgb(114, 114, 189);
+    color: white;
+    border-radius: 10px;
+    text-transform: capitalize;
+    border: none;
+}
+.subscript{
+    overflow: hidden;
+}
+
+.subscript span{
+    padding: 15px;
+}
+
+.subscript .inside{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.subscript .inside input{
+    padding: 10px 20px ;
+}
+
+footer p .para{
+    margin-top: 30px;
+}
