@@ -1,0 +1,405 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    padding: 10px 15%;
+
+}
+
+.t-center{
+    text-align: center;
+}
+
+.b{
+    text-transform: bold;
+}
+
+
+.f-color{
+    color:  #fe320a;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-end; */
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.menu{
+    width: 80%;
+    
+
+}
+nav .menu ul {
+    display: flex;
+    list-style:  none;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+}
+/* nav .menu ul li{
+     display: flex; 
+    
+} */
+
+nav .menu ul li a{
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    transition: 1s;
+}
+
+nav .menu ul li a:hover{
+    background-color: #fe320a;
+    
+}
+
+header{
+    background: url('images/header.png');
+    height: 100vh;
+    color: white;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+
+}
+
+header::after{
+    content: '';
+    clear: both;
+    display: block;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    z-index: -1;
+
+}
+
+header button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #fe320a;
+    color: white;
+    border: none;
+    text-transform: capitalize;
+}
+
+.head h2{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    position: relative;
+}
+
+.head h2::before{
+    content: '';
+    clear: both;
+    display: block;
+    
+    background-color: #fe320a;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    bottom: -28px;
+    transform: translate(-50%,0) 
+}
+
+.head hr{
+    width: 12%;
+    border: none;
+    height: 2px;
+    background : #fe320a;
+   
+}
+
+.about .row{
+    display: flex;
+
+}
+
+.about .about-pic {
+    width: 30%;
+    margin: 20px 2%;
+}
+
+.about .about-pic img{
+    width: 100%;
+}
+
+.about .about-text{
+    width: 60%;
+    margin: 20px 1%;
+    font-size: 15px;
+}
+
+.about .about-text h3{
+    margin-top: 5px;
+}
+
+.about .about-text button{
+    background-color: #fe320a;
+    color: white;
+    border: none;
+    text-transform: capitalize;
+    padding: 5px 10px;
+}
+
+.about-us{
+    background: url(images/aboutus.png);
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    position: relative;
+
+    z-index: 1;
+}
+
+.about-us i{
+    border: 2px solid white;
+    padding: 5px 8px;
+    font-size: 25px;
+    border-radius: 10%;
+}
+
+.about-us::before{
+    content: '';
+    clear: both;
+    display: block;
+    background-color: rgba(0, 0, 0, .5);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    z-index: -1;
+
+}
+
+.our-services .row{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+}
+
+.our-services .row .col{
+    width: 31%;
+    padding: 2% 2%;
+} 
+
+.our-services .row .col i{
+    color: #fe320a;
+    font-size: 25px;
+}
+
+.my-skill .my-row{
+    display: flex;
+    width: 100%;
+}
+
+.my-skill .my-row .my-text {
+    width: 45%;
+    padding: 2%;
+}
+
+.my-skill .my-row .my-bar{
+    width: 45%;
+    padding: 2%;
+    margin-top: 30px;
+}
+
+.out{
+    background-color: black;
+    height: 25px;
+    border-radius: 12px;
+    color: white;
+    position: relative;
+    text-align: right;
+}
+.in{
+    background-color: #fe320a;
+    height: 12px;
+    border-radius: 6px;
+    position: absolute;
+    left:  1%;
+    top: 50%;
+    transform: translate(0,-50%);
+    width: 60%;
+}
+
+.out1{
+    background-color: black;
+    height: 25px;
+    border-radius: 12px;
+    color: white;
+    position: relative;
+    text-align: right;
+}
+.in1{
+    background-color: #fe320a;
+    height: 12px;
+    border-radius: 6px;
+    position: absolute;
+    left:  1%;
+    top: 50%;
+    transform: translate(0,-50%);
+    width: 70%;
+}
+.out2{
+    background-color: black;
+    height: 25px;
+    border-radius: 12px;
+    color: white;
+    position: relative;
+    text-align: right;
+}
+.in2{
+    background-color: #fe320a;
+    height: 12px;
+    border-radius: 6px;
+    position: absolute;
+    left:  1%;
+    top: 50%;
+    transform: translate(0,-50%);
+    width: 80%;
+}
+
+.happy-client{
+    background: url(images/client.png);
+    height: 20vh;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.happy-client .client{
+    padding: 0 30px;
+}
+
+.happy-client .client i{
+    border: 2px solid white;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.happy-client::after{
+    content: ' ';
+    clear: both;
+    display: block;
+    background-color: rgba(0, 0, 0, .5) ;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    z-index: -1;
+
+}
+
+.our-portfolio .port-menu ul{ 
+    display: flex;
+    justify-content: center;
+    
+}
+.our-portfolio .port-menu ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.our-portfolio .port-menu ul li a{
+    text-transform: capitalize;
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+.our-portfolio .row{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+}
+
+.our-portfolio .row .col{
+    width: 31%;
+    padding: 2% 2%;
+} 
+.our-portfolio .row .col img{
+    width: 100%;
+}
+.my-team{
+    background-color: #e1e1e1;
+}
+.my-team .row{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+}
+
+.my-team .row .col{
+    width: 25%;
+    padding: 1% 1%;
+} 
+.my-team .row .col img{
+    width: 100%;
+}
+
+.test{
+    background: url(images/test1.png);
+    height: 50vh;
+    padding: 20px;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+.test div{
+    padding: 20px 0;
+}
+.test img{
+    border: none;
+    border-radius: 50%;
+    height: 70px;
+}
+
+.test::after{
+    content: '';
+    clear: both;
+    display: block;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
