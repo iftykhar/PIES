@@ -403,3 +403,32 @@ header button{
     bottom: 0;
     z-index: -1;
 }
+
+.latest-blog .row{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+}
+
+.latest-blog .row .col{
+    width: 31%;
+    padding: 1%;
+    margin: 0 20px;
+    box-shadow: 10px 10px 5px 10px lightgray;
+} 
+.latest-blog .row .col img{
+    width: 100%;
+}
+
+.latest-blog .row .col button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #252525;
+    color: white;
+    border: none;
+    text-transform: capitalize;
+}
+
+footer{
+    background-color: #252525;
+}
